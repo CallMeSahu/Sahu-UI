@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    margin: 2rem auto;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem auto;
+    min-height: 478px;  
+}
+
+.sidebar , .main-content{
+    height: 350px;
+    padding: 1rem;    
+}
+
+.sidebar{
+    background-color: var(--primary-color);    
+    flex-basis: 250px;
+    color: var(--white); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 0.2rem;
+    padding-bottom: 5rem;
+}
+
+.sidebar h3{
+    margin-top: 1rem;
+}
+
+.sidebar .selected-page{
+    font-weight: bold;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.main-content{
+    flex-grow: 1;
+}

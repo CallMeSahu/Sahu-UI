@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    background-color: var(--primary-color);
+    align-items: center;    
+}
+
+.header-logo{
+    font-size: 30px;
+    color: var(--white);
+    margin-left: 8rem;    
+}
+
+.header-logo a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+.nav-item{
+    padding: 1.5rem;
+    font-size: 22px;
+    color: var(--white);
+}
+
+.nav-item img{
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 3px
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin: 4rem auto;
+    gap: 25px;
+    margin-bottom: 4rem;
+}
+
+.hero-container img{
+    height: 230px;
+    margin: 0 auto;
+}
+
+.hero-container button{
+    padding: 1rem 1.5rem;
+    margin: 0.5rem;
+    background-color: var(--primary-color);  
+    border: 0;  
+}
+
+.hero-container a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 0.5rem;
+    position: relative;
+    /* top: 295px; */
+}
+
+.logo-container{
+    display: flex;   
+    justify-content: center; 
+}
+
+.footer-message {
+    color: var(--white);
+    padding-top: 1rem;
+}
+
+.footer-item img{
+    padding: 1rem;
+    width: 25px;
+    height: 25px;   
+}
