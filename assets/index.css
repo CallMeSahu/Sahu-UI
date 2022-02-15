@@ -1,3 +1,5 @@
+
+
 .header{
     display: flex;
     background-color: var(--primary-color);
@@ -76,9 +78,7 @@
     background-color: var(--primary-color);
     align-items: center;
     padding: 0.5rem;
-    position: relative;
-    /* top: 295px; */
-}
+}  
 
 .logo-container{
     display: flex;   

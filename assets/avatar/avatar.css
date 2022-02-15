@@ -1,0 +1,49 @@
+
+.main-content-header{
+    margin: 1rem;    
+}
+
+.main-content-para{
+   margin: 1rem; 
+}
+
+.avatar-varient-container{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+}
+
+.avatar{
+    vertical-align: middle;    
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.sm{
+    height: 50px;
+    width: 50px;
+}
+
+.md{
+    height: 80px;
+    width: 80px;
+}
+
+.lg{
+    height: 110px;
+    width: 110px;
+}
+
+.avatar-square{
+    vertical-align: middle;    
+    border: 1px solid black;
+}
+
+.iframe{
+    margin: 1rem;
+    height: 500px;
+}
