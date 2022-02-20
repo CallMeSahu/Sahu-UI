@@ -1,0 +1,88 @@
+.main-content-header{
+    margin: 1rem;    
+}
+
+.main-content-para{
+   margin: 1rem; 
+}
+
+.button-varient-container{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+}
+
+.button{
+    background-color: var(--default-color);
+    min-width: 100px;
+    width: max-content;
+    padding: 0.5rem 1rem;
+    cursor: pointer;  
+    font-weight: bold;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+}
+
+.button-secondary{
+    background-color: var(--secondary-color);
+}
+
+.button-error{
+    background-color: var(--danger-color);
+}
+
+.button-warning{
+    background-color: var(--warning-color);  
+}
+
+.button-success{
+    background-color: var(--success-color); 
+}
+
+.outline{
+    color: var(--default-color);
+    background-color: var(--off-white);
+}
+
+.outline-primary{
+    background-color: var(--off-white);
+    color: var(--primary-color);
+}
+
+.outline-error{
+    background-color: var(--off-white);
+    color: var(--danger-color);
+} 
+
+.outline-warning{
+    color: var(--warning-color);
+    background-color: var(--off-white);
+}
+
+.outline-success{
+    color: var(--success-color);
+    background-color: var(--off-white);
+}
+
+.button-link{
+    border: 2px solid black;
+}
+
+.button-varient-container a{
+    text-decoration: none;
+}
+
+.button-floating{
+    border-radius: 50%; 
+  width: 70px;
+  height: 70px; 
+  background-color: var(--default-color);
+  color: var(--off-white);
+  cursor: pointer;
+} 
