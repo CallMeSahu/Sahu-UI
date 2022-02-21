@@ -2,6 +2,12 @@
 @import url("./index.css");
 @import url("./documentation.css");
 
+
+
+
+
+@import url("./image/image.css");
+
 :root{
     --primary-color: #3b82f6;
     --secondary-color: #93c5fd;
