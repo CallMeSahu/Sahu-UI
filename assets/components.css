@@ -2,10 +2,19 @@
 @import url("./index.css");
 @import url("./documentation.css");
 
+
+
+
+
+@import url("./card/card.css");
+
 :root{
     --primary-color: #3b82f6;
     --secondary-color: #93c5fd;
     --white: #ffffff; 
+    --danger-color: #ef4444;
+    --warning-color: #f59e0b;
+    --success-color: #22c55e;
 }
 
 *{
