@@ -12,6 +12,12 @@
 
 @import url("./badge/badge.css");
 
+
+
+
+
+@import url("./card/card.css");
+
 :root{
     --primary-color: #3b82f6;
     --secondary-color: #93c5fd;
