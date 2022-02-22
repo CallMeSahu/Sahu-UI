@@ -21,3 +21,10 @@ Import my stylesheet into your CSS using the following code.
 - Card
 - Image
 - Input
+
+## Screenshots
+
+### Landing Page
+![image](./assets/images/Sahu-UI-Home.png)
+### Component Page
+![image](./assets/images/Sahu-UI-Component.png)
