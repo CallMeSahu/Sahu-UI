@@ -3,10 +3,30 @@
 @import url("./documentation.css");
 @import url("./avatar/avatar.css");
 
+
+
+
+
+
+@import url("./image/image.css");
+
+
+
+
+
+
+
+
+@import url("./input/input.css");
+
+
 :root{
     --primary-color: #3b82f6;
     --secondary-color: #93c5fd;
     --white: #ffffff; 
+    --danger-color: #ef4444;
+    --warning-color: #f59e0b;
+    --success-color: #22c55e;
 }
 
 *{

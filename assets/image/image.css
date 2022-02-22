@@ -1,0 +1,25 @@
+.main-content-header{
+    margin: 1rem;    
+}
+
+.main-content-para{
+   margin: 1rem; 
+}
+
+.image-varient-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;  
+    margin: 1rem; 
+}
+
+.image-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border: 1.5px solid black;
+}
+
+.image-round{
+    border-radius: 100%;
+}
