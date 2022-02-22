@@ -1,0 +1,30 @@
+.main-content-header{
+    margin: 1rem;    
+}
+
+.main-content-para{
+   margin: 1rem; 
+}
+
+.input-varient-container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+
+.input{
+    height: 50px;
+    outline: none; 
+    padding: 0.5rem; 
+    width: 100%;  
+}
+
+.input-error{
+    border: 2px solid var(--danger-color);
+    color: var(--danger-color);
+}
