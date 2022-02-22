@@ -7,7 +7,17 @@
 
 
 
+@import url("./image/image.css");
+
+
+
+
+
+
+
+
 @import url("./input/input.css");
+
 
 :root{
     --primary-color: #3b82f6;
