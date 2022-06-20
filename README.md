@@ -1,2 +1,2 @@
 # sahu-ui
- Componant Library made by Siddhartha Sahu.
+ Component Library by Siddhartha Sahu
